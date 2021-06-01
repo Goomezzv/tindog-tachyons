@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tindog</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+  <link rel="stylesheet" href=assets/css/styles.css>
+  <!-- JS & jQuery Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section id="title">
+
+    <!-- Nav Bar -->
+
+    <div class="bg-pink">
+      <nav class="flex justify-around pa5">
+        <a class="navbar-brand f-headline lh-solid white" >tindog</a>
+          <span></span>
+        <div>
+          <ul class="flex list p10">
+            <li class="nav-item pa3">
+              <a class="f4 link dim br3 ph3 pv2 mb2 dib grey hover-white" href="#features">Servicios</a>
+            </li>
+            <li class="nav-item pa3">
+              <a class="f4 link dim br3 ph3 pv2 mb2 dib grey hover-white" href="#pricing">Precios</a>
+            </li>
+            <li class="nav-item pa3">
+              <a class="f4 link dim br3 ph3 pv2 mb2 dib grey hover-white" href="#footer">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+
+      <div>
+        <div class="flex">
+          <div>
+            <h1 class=" section-title">Conoce perros nuevos e interesantes cerca tuyo.</h1>
+            <button type="button" class ="link dim br3 ph3 pv2 mb2 dib white bg-mid-gray hover-white"><i class="fab fa-apple "></i> Descargar</button>
+            <button type="button" class="link dim br3 ba bw1 ph3 pv2 mb2 dib mid-gray hover-white" ><i class="fab fa-google-play"></i> Descargar</button>
+          </div>
+          <div class="pr6">
+            <img class="title-img relative" src="assets/images/iphone6.png" alt="iphone-mockup">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+
+  <section id="features">
+    <div>
+      <div class="flex justify-around">
+        <div class="pv6">
+          <i class="fas fa-check-circle fa-4x features-icon"></i>
+          <h3 class="f3">Facil de usar</h3>
+          <p class="feature-text f4 mid-gray">Tan facil de usar, que hasta tu perro lo podria hacer.</p>
+        </div>
+        <div class="pv6">
+          <i class="fas fa-bullseye fa-4x features-icon"></i>
+          <h3 class="f3">Clientela Elite</h3>
+          <p class="feature-text f4 mid-gray">Tenemos todos los perros, los mejores perros.</p>
+        </div>
+        <div class="pv6 ">
+          <i class="fas fa-heart fa-4x features-icon"></i>
+          <h3 class="f3">Amor garantizado</h3>
+          <p class="feature-text f4 mid-gray">Encontra el amor de tu perro o te devolvemos tu dinero.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Pricing -->
+
+  <section id="pricing">
+    <div>
+      <h2 class="f2-l">Un plan para la necesidad de cada perro</h2>
+      <p class="f4 mid-gray">Planes simples y baratos para ti y tu perro.</p>
+      <div class="flex">
+        <article class="center mw5 mw6-ns hidden ba mv4">
+          <h1 class="f2 bg-near-white black mv0 pv2 ph3">Chihuahua</h1>
+          <div class="pa3 bt">
+            <p class="f6 f5-ns lh-copy measure mv0">
+            <h4 class="f3">Gratis</h4>
+            <p class="f4 mid-gray">5 Matches por dia</p>
+            <p class="f4 mid-gray">10 Mensajes por dia</p>
+            <p class="f4 mid-gray">Uso de aplicacion ilimitado</p>
+            <button type="button" class="link dim br3 ba bw1 ph3 pv2 mb2 dib mid-gray hover-gray">Registrate</button>
+            </p>
+          </div>
+        </article>
+        <article class="center mw5 mw6-ns hidden ba mv4">
+          <h1 class="f2 bg-near-white black mv0 pv2 ph3">Labrador</h1>
+          <div class="pa3 bt">
+           <p class="f6 f5-ns lh-copy measure mv0">
+           <h4 class="f3">$69 / mes</h4>
+           <p class="f4 mid-gray">Matches ilimitados</p>
+           <p class="f4 mid-gray">Mensajes ilimitados</p>
+           <p class="f4 mid-gray">Uso de aplicacion ilimitado</p>
+           <button type="button" class="link dim br3 ba bw1 ph3 pv2 mb2 dib mid-gray hover-gray">Subscribirse</button>
+           </p>
+          </div>
+        </article>
+        <article class="center mw5 mw6-ns hidden ba mv4">
+          <h1 class="f2 bg-near-white black mv0 pv2 ph3">Mastín</h1>
+          <div class="pa3 bt">
+            <p class="f6 f5-ns lh-copy measure mv0">
+            <h4 class="f3">$420 / mes</h4>
+            <p class="f4 mid-gray">Prioridad de listado</p>
+            <p class="f4 mid-gray">Matches ilimitados</p>
+            <p class="f4 mid-gray">Mensajes ilimitados</p>
+            <p class="f4 mid-gray">Uso de aplicacion ilimitado</p>
+            <button type="button" class="link dim br3 ba bw1 ph3 pv2 mb2 dib mid-gray hover-gray">Subscribirse</button>
+            </p>
+          </div>
+        </article>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+
+  <section class="bg-pink"id="cta">
+    <h2 class="f2 lh-copy fw9 white">Encontra el verdadero amor de tu perro, hoy mismo.</h2>
+      <button type="button" class ="link dim br3 ph3 pv2 mb2 dib white bg-mid-gray hover-white "><i class="fab fa-apple "></i> Descargar</button>
+      <button type="button" class="link dim br3 ba bw1 ph3 pv2 mb2 dib mid-gray hover-white" ><i class="fab fa-google-play"></i> Descargar</button>
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="pv4 ph3 ph5-ns tc">
+    <a class="link dim gray dib h2 w2 br-100 mr3 pa2 bg-near-white ba b--black-10" href="#" title="">
+      <svg data-icon="facebook" viewBox="0 0 32 32" style="fill:currentcolor">
+        <title>facebook icon</title>
+        <path d="M8 12 L13 12 L13 8 C13 2 17 1 24 2 L24 7 C20 7 19 7 19 10 L19 12 L24 12 L23 18 L19 18 L19 30 L13 30 L13 18 L8 18 z"></path>
+      </svg>
+    </a>
+    <a class="link dim gray dib h2 w2 br-100 mr3 pa2 bg-near-white ba b--black-10" href="#" title="">
+      <svg data-icon="twitter" viewBox="0 0 32 32" style="fill:currentcolor">
+        <title>twitter icon</title>
+        <path d="M2 4 C6 8 10 12 15 11 A6 6 0 0 1 22 4 A6 6 0 0 1 26 6 A8 8 0 0 0 31 4 A8 8 0 0 1 28 8 A8 8 0 0 0 32 7 A8 8 0 0 1 28 11 A18 18 0 0 1 10 30 A18 18 0 0 1 0 27 A12 12 0 0 0 8 24 A8 8 0 0 1 3 20 A8 8 0 0 0 6 19.5 A8 8 0 0 1 0 12 A8 8 0 0 0 3 13 A8 8 0 0 1 2 4"></path>
+      </svg>
+    </a>
+    <a class="link dim gray dib br-100 h2 w2 mr3 pa2 bg-near-white ba b--black-10" href="#" title="">
+      <svg data-icon="github" viewBox="0 0 32 32" style="fill:currentcolor">
+        <title>github icon</title>
+        <path d="M0 18 C0 12 3 10 3 9 C2.5 7 2.5 4 3 3 C6 3 9 5 10 6 C12 5 14 5 16 5 C18 5 20 5 22 6 C23 5 26 3 29 3 C29.5 4 29.5 7 29 9 C29 10 32 12 32 18 C32 25 30 30 16 30 C2 30 0 25 0 18 M3 20 C3 24 4 28 16 28 C28 28 29 24 29 20 C29 16 28 14 16 14 C4 14 3 16 3 20 M8 21 A1.5 2.5 0 0 0 13 21 A1.5 2.5 0 0 0 8 21 M24 21 A1.5 2.5 0 0 0 19 21 A1.5 2.5 0 0 0 24 21 z"></path>
+      </svg>
+    </a>
+    <a class="link dim gray dib br-100 h2 w2 mr3 pa2 bg-near-white ba b--black-10" href="#" title="">
+      <svg data-icon="dribbble" viewBox="0 0 32 32" style="fill:currentcolor">
+        <title>dribbble icon</title>
+        <path d="M16 0 A16 16 0 0 0 0 16 A16 16 0 0 0 16 32 A16 16 0 0 0 32 16 A16 16 0 0 0 16 0 M5 11.5 A12 12 0 0 1 11 5 A46 46 0 0 1 13.5 9.25 A46 46 0 0 1 5 11.5 M15 4 A12 12 0 0 1 21.5 5.25 A46 46 0 0 1 17 7.75 A50 50 0 0 0 15 4 M4 16 A50 50 0 0 0 15 13 A46 46 0 0 1 16 15.5 A26 26 0 0 0 6 22.5 A12 12 0 0 1 4 16 M18.5 11.5 A50 50 0 0 0 25 8 A12 12 0 0 1 28 13.75 A26 26 0 0 0 19.75 14.5 A50 50 0 0 0 18.5 11.5 M17 19.5 A46 46 0 0 1 18 28 A12 12 0 0 1 8.75 25.5 A22 22 0 0 1 17 19.5 M20.75 18.25 A22 22 0 0 1 28 17.75 A12 12 0 0 1 22 26.5 A50 50 0 0 0 20.75 18.25"></path>
+      </svg>
+    </a>
+  </footer>
+
+</html>
